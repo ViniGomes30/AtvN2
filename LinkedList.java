@@ -1,3 +1,7 @@
+// Diego Estevão Lopes de Queiroz - 10419038
+// Vinícius Gutierrez Gomes - 10425609  
+// Henrique Totti - 10436584
+
 class LinkedList<E> {
     Node<E> first;
     Node<E> last;

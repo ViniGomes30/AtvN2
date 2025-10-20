@@ -1,3 +1,7 @@
+// Diego Estevão Lopes de Queiroz - 10419038
+// Vinícius Gutierrez Gomes - 10425609  
+// Henrique Totti - 10436584
+
 public class Main   {
     public static void main(String[] args) throws Exception {
         LinkedList<String> placas = new LinkedList<>();
