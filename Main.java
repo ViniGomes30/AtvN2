@@ -1,6 +1,5 @@
 public class Main   {
     public static void main(String[] args) throws Exception {
-        // Lista de placas (formato XXX9999)
         LinkedList<String> placas = new LinkedList<>();
         placas.addLast("ABC1234");
         placas.addLast("XYZ9876");
@@ -12,12 +11,12 @@ public class Main   {
         System.out.println("Lista original de placas:");
         placas.mostraLista();
 
-        // Método 1: triplicarElementos
+        // TriplicarElementos
         LinkedList<String> triplicada = triplicarElementos(placas);
         System.out.println("\nLista triplicada:");
         triplicada.mostraLista();
 
-        // Método 2: intercalar (vamos criar outra lista e intercalar com a original)
+        // Intercalar
         LinkedList<String> outras = new LinkedList<>();
         outras.addLast("AAA1111");
         outras.addLast("BBB2222");
